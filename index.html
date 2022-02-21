@@ -11,10 +11,6 @@
 
 <body>
     <header class="header" id="home">
-        <div class="hero">
-            <h2 class="heading">mianaworld</h2>
-            <p class="sub-heading">all about miana/cleus plant</p>
-        </div>
         <nav class="menu">
             <div class="brand">
                 <h1>mianaworld</h1>
@@ -25,10 +21,17 @@
                 <li> <a href="#varietas">varietas</a></li>
                 <li> <a href="#contact">contact</a></li>
             </ul>
-            <div id="buttonDrawer" class="button-drawer">
-                <button>☰</button>
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
+        <div class="hero">
+            <h2>mianaworld</h2>
+            <p>all about miana/cleus plant</p>
+        </div>
     </header>
     <main>
         <div class="contents">
@@ -71,7 +74,7 @@
 
             <article id="contact" class="content">
                 <h2>contact</h2>
-                <div class="image"><img src="/img/contact.jpg" alt="contact"></div>
+                <div class="image"><img src="/img/contact.png" alt="contact"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia asperiores velit similique nam
                     officiis tempore facere optio consectetur? Eius itaque quasi qui laborum a quo magni cupiditate? Ex,
                     et.</p>
@@ -80,13 +83,13 @@
 
         <aside>
             <div class="writer">
+                <h2>about writer</h2>
                 <img src="img/profile-picture.png">
                 <p>Hi! My name is Ni Putu Sintia Wati. You can call me sintia. Now, I'm attend in Udayana university in
                     departemen of computer
                     science. I'm currently studying science such as web programming, machine learning and data. Beside
                     that,
-                    I'm interesting in photography. I usually do that in spare time. I hope you interested with my
-                    snaps.
+                    I'm interesting in photography. I usually do that in spare time.
                 </p>
             </div>
         </aside>
@@ -94,6 +97,7 @@
     <footer>
         <footer>Belajar Dasar Pemrograman Web &#169; 2022, Dicoding Academy</footer>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
