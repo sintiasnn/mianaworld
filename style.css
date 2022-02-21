@@ -17,7 +17,7 @@ body {
 
 .hero {
     min-height: 450px;
-    background-image: url(img/hero.png);
+    background-image: url(img/hero.jpg);
     background-size: cover;
     padding: 50px;
 }
@@ -41,7 +41,7 @@ body {
 .menu a {
     display: block;
     background-color: rgb(91, 109, 91);
-    color: #e2bcb7;
+    color: #F6E6E4;
     text-decoration: none;
     text-align: center;
     padding: 5px;
@@ -57,4 +57,71 @@ body {
     font-size: 24px;
     color: black;
     cursor: pointer;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    flex-grow: 3;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.content h2 {
+    padding: 20px;
+}
+
+#varietas {
+    display: flex;
+    flex-direction: row;
+}
+
+.varieta {
+    flex-grow: 3;
+    padding: 30px;
+    text-align: center;
+}
+
+#about .image,
+#contact .image {
+    width: 400px;
+    height: 400px;
+    float: left;
+    display: block;
+    margin-right: 30px;
+}
+
+footer {
+    padding: 20px;
+    color: #F6E6E4;
+    background-color: #5b6d5b;
+    text-align: center;
+    font-weight: bold;
+}
+
+.writer {
+    background-color: #e2bcb7;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid #e2bcb7;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.writer img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.writer p {
+    text-align: justify;
 }
