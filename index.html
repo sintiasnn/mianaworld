@@ -5,25 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>mianaworld</title>
 </head>
 
 <body>
-    <header> ini header</header>
-    <main>
-        ini bagian utama
-        <div id="content">
-            <article>
-                article 1
-            </article>
-            <article>
-                article 2
-            </article>
+    <header class="header" id="home">
+        <div class="hero">
+            <h2 class="heading">mianaworld</h2>
+            <p class="sub-heading">all about miana/cleus plant</p>
         </div>
-        <aside> aside </aside>
+        <nav class="menu">
+            <div class="brand">
+                <h1>mianaworld</h1>
+            </div>
+            <ul class="menu-list">
+                <li> <a href="#home">home</a></li>
+                <li> <a href="#about">about</a></li>
+                <li> <a href="#varietas">varietas</a></li>
+                <li> <a href="#contact">contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <button id="buttonDrawer" class="button-drawer">☰</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article id="about">
+            <h2>About</h2>
+            <div class="image">gambar 1</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia asperiores velit similique nam
+                officiis tempore facere optio consectetur? Eius itaque quasi qui laborum a quo magni cupiditate? Ex,
+                et.</p>
+        </article>
+
+        <article id="varietas" class="contents">
+            <h2>Varietas</h2>
+            <div class="content">
+                <div class="image">gambar 2.1</div>
+                <h3>jenis 1</h3>
+                <p>nama ilmiah</p>
+            </div>
+            <div class="content">
+                <div class="image">gambar 2.2</div>
+                <h3>jenis 2</h3>
+                <p>nama ilmiah</p>
+            </div>
+            <div class="content">
+                <div class="image">gambar 2.3</div>
+                <h3>jenis 3</h3>
+                <p>nama ilmiah</p>
+            </div>
+        </article>
+
+        <article id="contact">
+            <h2>About</h2>
+            <div class="image">gambar 1</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia asperiores velit similique nam
+                officiis tempore facere optio consectetur? Eius itaque quasi qui laborum a quo magni cupiditate? Ex,
+                et.</p>
+        </article>
+
+        <aside>
+            <div class="about">
+                <img src="img/profile-picture.png">
+                <p>Hi! My name is Ni Putu Sintia Wati. You can call me sintia. Now, I'm attend in Udayana university in
+                    departemen of computer
+                    science. I'm currently studying science such as web programming, machine learning and data. Beside
+                    that,
+                    I'm interesting in photography. I usually do that in spare time. I hope you interested with my
+                    snaps.
+                </p>
+            </div>
+        </aside>
     </main>
     <footer>
-        ini footer
+        <footer>Belajar Dasar Pemrograman Web &#169; 2022, Dicoding Academy</footer>
     </footer>
 </body>
 
