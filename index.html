@@ -5,99 +5,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mianaworld - All about miana/coleus plant.">
+    <title>mianaworld | Miana/Coleus Plant</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>mianaworld</title>
 </head>
 
 <body>
-    <header class="header" id="home">
-        <nav class="menu">
-            <div class="brand">
-                <h1>mianaworld</h1>
-            </div>
-            <ul class="menu-list">
-                <li> <a href="#home">home</a></li>
-                <li> <a href="#about">about</a></li>
-                <li> <a href="#varietas">varietas</a></li>
-                <li> <a href="#contact">contact</a></li>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="nav-brand">mianaworld</a>
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#varietas" class="nav-link">Varietas</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="menu-toggle">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">mianaworld</h1>
+            <p class="hero-sub">All about miana / coleus plant</p>
+            <div class="hero-decoration">
+                <span class="leaf">🌿</span>
             </div>
-        </nav>
-        <div class="hero">
-            <h2>mianaworld</h2>
-            <p>all about miana/cleus plant</p>
+            <a href="#about" class="hero-btn">Explore</a>
         </div>
     </header>
-    <main>
-        <div class="contents">
-            <article id="about" class="content">
-                <h2>About</h2>
-                <div class="image"><img src="/img/miana-04.jpg" alt="miana"></div>
-                <p>coleus, any of several ornamental plants in the mint family (Lamiaceae), grown for the bright colours
-                    and patterns of their leaves. The plants were formerly grouped in the genus Coleus, but their
-                    taxonomy is contentious and molecular data suggest that the species are distributed across several
-                    general.</p> <br>
-                <p>Varieties of common coleus, or painted nettle (Plectranthus scutellarioides, formerly Coleus blumei),
-                    from Java, are well-known house and garden plants up to one metre (three feet) tall. They have
-                    square stems and small, blue, two-lipped flowers borne in spikes. The leaves are often variegated
-                    with colourful patterns of magenta and green, though other colour combinations have been developed.
-                </p> <br>
-                <p><cite><a href="https://www.britannica.com/plant/coleus">Britannica, The Editors of
-                            Encyclopaedia.
-                            "coleus". Encyclopedia Britannica, 27 Jan. 2016, Accessed 21 Februari 2022.</a></cite></p>
-                </p>
-            </article>
 
-            <article id="varietas" class="content">
-                <h2>Varietas</h2>
-                <div class="varieta">
-                    <div class="image"><img src="/img/miana-01.jpg" alt="miana 1"></div>
-                    <h3>jenis 1</h3>
-                    <p>nama ilmiah</p>
-                </div>
-                <div class="varieta">
-                    <div class="image"><img src="/img/miana-02.jpg" alt="miana 2"></div>
-                    <h3>jenis 2</h3>
-                    <p>nama ilmiah</p>
-                </div>
-                <div class="varieta">
-                    <div class="image"><img src="/img/miana-03.jpg" alt="miana 3"></div>
-                    <h3>jenis 3</h3>
-                    <p>nama ilmiah</p>
-                </div>
-            </article>
-
-            <article id="contact" class="content">
-                <h2>contact</h2>
-                <div class="image"><img src="/img/contact.png" alt="contact"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officia asperiores velit similique nam
-                    officiis tempore facere optio consectetur? Eius itaque quasi qui laborum a quo magni cupiditate? Ex,
-                    et.</p>
-            </article>
+    <div class="stats">
+        <div class="stat">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Varieties</span>
         </div>
+        <div class="stat">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Color Patterns</span>
+        </div>
+        <div class="stat">
+            <span class="stat-number">1m</span>
+            <span class="stat-label">Max Height</span>
+        </div>
+    </div>
 
-        <aside>
-            <div class="writer">
-                <h2>about writer</h2>
-                <img src="img/profile-picture.png">
-                <p>Hi! My name is Ni Putu Sintia Wati. You can call me sintia. Now, I'm attend in Udayana university in
-                    departemen of computer
-                    science. I'm currently studying science such as web programming, machine learning and data. Beside
-                    that,
-                    I'm interesting in photography. I usually do that in spare time.
-                </p>
+    <main class="container">
+
+        <section id="about" class="section about-section">
+            <h2 class="section-title">About Coleus</h2>
+            <p class="section-desc">Coleus, any of several ornamental plants in the mint family (Lamiaceae), grown for the bright colours and patterns of their leaves.</p>
+            <div class="about-grid">
+                <article class="about-card fade-in-left">
+                    <div class="about-img">
+                        <img src="img/miana-04.jpg" alt="Coleus plant">
+                    </div>
+                    <div class="about-text">
+                        <h3>Description</h3>
+                        <p>The plants were formerly grouped in the genus Coleus, but their taxonomy is contentious and molecular data suggest that the species are distributed across several genera.</p>
+                    </div>
+                </article>
+                <article class="about-card fade-in-right">
+                    <div class="about-img">
+                        <img src="img/miana-02.jpg" alt="Coleus characteristics">
+                    </div>
+                    <div class="about-text">
+                        <h3>Characteristics</h3>
+                        <p>Varieties of common coleus, or painted nettle (<em>Plectranthus scutellarioides</em>, formerly <em>Coleus blumei</em>), from Java, are well-known house and garden plants up to one metre tall. They have square stems and small, blue, two-lipped flowers borne in spikes.</p>
+                    </div>
+                </article>
+                <article class="about-card fade-in-left">
+                    <div class="about-img">
+                        <img src="img/miana-03.jpg" alt="Coleus variations">
+                    </div>
+                    <div class="about-text">
+                        <h3>Variations</h3>
+                        <p>The leaves are often variegated with colourful patterns of magenta and green, though other colour combinations have been developed. This diversity makes coleus a popular choice for ornamental gardening and indoor plant collections worldwide.</p>
+                    </div>
+                </article>
             </div>
-        </aside>
+            <p class="about-ref"><cite><a href="https://www.britannica.com/plant/coleus" target="_blank" rel="noopener noreferrer">Britannica, The Editors of Encyclopaedia. "coleus". Encyclopedia Britannica, 27 Jan. 2016.</a></cite></p>
+        </section>
+
+        <section id="varietas" class="section varietas-section">
+            <h2 class="section-title">Varietas</h2>
+            <p class="section-desc">Explore the diverse patterns and colors of miana leaves.</p>
+            <div class="varietas-grid fade-in-up">
+                <div class="varieta-card">
+                    <img src="img/miana-01.jpg" alt="Miana variety 1" loading="lazy" class="gallery-img">
+                    <div class="varieta-overlay">
+                        <h3>Variety 1</h3>
+                    </div>
+                </div>
+                <div class="varieta-card">
+                    <img src="img/miana-02.jpg" alt="Miana variety 2" loading="lazy" class="gallery-img">
+                    <div class="varieta-overlay">
+                        <h3>Variety 2</h3>
+                    </div>
+                </div>
+                <div class="varieta-card">
+                    <img src="img/miana-03.jpg" alt="Miana variety 3" loading="lazy" class="gallery-img">
+                    <div class="varieta-overlay">
+                        <h3>Variety 3</h3>
+                    </div>
+                </div>
+                <div class="varieta-card">
+                    <img src="img/miana-04.jpg" alt="Miana variety 4" loading="lazy" class="gallery-img">
+                    <div class="varieta-overlay">
+                        <h3>Variety 4</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="contact-card fade-in-up">
+                <h2 class="section-title">Get in Touch</h2>
+                <p>Have questions about miana/coleus plants? Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="https://www.britannica.com/plant/coleus" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span>📚</span> Britannica
+                    </a>
+                    <a href="mailto:hello@mianaworld.com" class="contact-link">
+                        <span>✉️</span> hello@mianaworld.com
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </main>
-    <footer>
-        <footer>Belajar Dasar Pemrograman Web &#169; 2022, Dicoding Academy</footer>
+
+    <aside class="writer-section">
+        <div class="writer-card fade-in-up">
+            <img src="img/profile-picture.png" alt="Sintia profile picture" class="writer-img">
+            <div class="writer-text">
+                <h3>About the Writer</h3>
+                <p>Hi! My name is Ni Putu Sintia Wati. You can call me Sintia. I attend Udayana University in Department of Computer Science, studying web programming, machine learning and data. Besides that, I'm interested in photography and usually do that in my spare time.</p>
+            </div>
+        </div>
+    </aside>
+
+    <footer class="footer">
+        <p>&copy; 2022 mianaworld. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+
+    <div id="lightbox" class="lightbox" role="dialog" aria-label="Image viewer">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img class="lightbox-image" alt="Enlarged view">
+    </div>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
