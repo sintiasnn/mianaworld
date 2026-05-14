@@ -110,6 +110,12 @@ npm run build
 
 ---
 
+## Original Branch
+
+The original version is preserved in the [`master-old-version`](https://github.com/sintiasnn/mianaworld/tree/master-old-version) branch.
+
+---
+
 ## Author
 
 **Ni Putu Sintia Wati**
